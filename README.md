@@ -16,10 +16,12 @@
      ./gradlew build
       java -jar build/libs/tcdemo-0.0.1-SNAPSHOT.jar
       curl localhost:8080/customers
+      CTRL/C
 
      ./gradlew nativeBuild
       java -jar build/libs/tcdemo-0.0.1-SNAPSHOT.jar
       curl localhost:8080/customers
+      CTRL/C
 
       docker-compose down
       ```
@@ -27,7 +29,7 @@
 2. Does not work:
 
     ```
-      # Running native tests that use testcontainers for Postgresql
+# Running native tests that use testcontainers for Postgresql
     ./gradlew clean nativeTest
     ```
     
