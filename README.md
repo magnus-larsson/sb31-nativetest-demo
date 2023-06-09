@@ -19,7 +19,7 @@
       CTRL/C
 
      ./gradlew nativeBuild
-      java -jar build/libs/tcdemo-0.0.1-SNAPSHOT.jar
+     ./build/native/nativeCompile/tcdemo
       curl localhost:8080/customers
       CTRL/C
 
